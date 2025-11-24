@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.bsp filter=lfs diff=lfs merge=lfs -text
+*.tls filter=lfs diff=lfs merge=lfs -text
+*.tpc filter=lfs diff=lfs merge=lfs -text
